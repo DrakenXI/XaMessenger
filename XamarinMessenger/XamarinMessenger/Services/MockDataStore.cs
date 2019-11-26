@@ -56,6 +56,11 @@ namespace XamarinMessenger.Services
 
         public async Task<IEnumerable<Item>> GetItemsAsync(bool forceRefresh = false)
         {
+            items.Clear();
+            foreach(Item i in this.GetItems())
+            {
+                items.Add(i);
+            }
             return await Task.FromResult(items);
         }
     }
