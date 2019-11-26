@@ -495,3 +495,5 @@ C:\Users\cleme\source\repos\XamarinMessenger\XamarinMessenger\XamarinMessenger.A
 C:\Users\cleme\source\repos\XamarinMessenger\XamarinMessenger\XamarinMessenger.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\cleme\source\repos\XamarinMessenger\XamarinMessenger\XamarinMessenger.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\cleme\source\repos\XamarinMessenger\XamarinMessenger\XamarinMessenger.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\cleme\source\repos\XamarinMessenger\XamarinMessenger\XamarinMessenger.Android\obj\Debug\90\linksrc\Newtonsoft.Json.dll
+C:\Users\cleme\source\repos\XamarinMessenger\XamarinMessenger\XamarinMessenger.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll

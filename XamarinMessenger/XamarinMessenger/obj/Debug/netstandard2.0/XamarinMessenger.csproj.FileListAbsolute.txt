@@ -12,7 +12,7 @@ C:\Users\cleme\source\repos\XamarinMessenger\XamarinMessenger\XamarinMessenger\o
 C:\Users\cleme\source\repos\XamarinMessenger\XamarinMessenger\XamarinMessenger\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
 C:\Users\cleme\source\repos\XamarinMessenger\XamarinMessenger\XamarinMessenger\obj\Debug\netstandard2.0\XamarinMessenger.AssemblyInfoInputs.cache
 C:\Users\cleme\source\repos\XamarinMessenger\XamarinMessenger\XamarinMessenger\obj\Debug\netstandard2.0\XamarinMessenger.AssemblyInfo.cs
-C:\Users\cleme\source\repos\XamarinMessenger\XamarinMessenger\XamarinMessenger\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\cleme\source\repos\XamarinMessenger\XamarinMessenger\XamarinMessenger\obj\Debug\netstandard2.0\XamarinMessenger.dll
 C:\Users\cleme\source\repos\XamarinMessenger\XamarinMessenger\XamarinMessenger\obj\Debug\netstandard2.0\ref\XamarinMessenger.dll
 C:\Users\cleme\source\repos\XamarinMessenger\XamarinMessenger\XamarinMessenger\obj\Debug\netstandard2.0\XamarinMessenger.pdb
+C:\Users\cleme\source\repos\XamarinMessenger\XamarinMessenger\XamarinMessenger\obj\Debug\netstandard2.0\XamlC.stamp

@@ -4,8 +4,13 @@ namespace XamarinMessenger.Models
 {
     public class Item
     {
-        public string Id { get; set; }
-        public string Text { get; set; }
-        public string Description { get; set; }
+        public int id { get; set; }
+        public int student_id { get; set; }
+
+        public double gps_lat { get; set; }
+
+        public double gps_long { get; set; }
+
+        public string student_message { get; set; }
     }
 }

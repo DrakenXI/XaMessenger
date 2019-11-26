@@ -19,10 +19,12 @@ namespace XamarinMessenger.Views
         {
             InitializeComponent();
 
-            Item = new Item
+            var item = new Item
             {
-                Text = "Item name",
-                Description = "This is an item description."
+                student_message = "Item 1",
+                gps_lat = 43.6311291,
+                gps_long = 03.8602811,
+                student_id = 20140477
             };
 
             BindingContext = this;
