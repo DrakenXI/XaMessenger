@@ -1,9 +1,11 @@
-﻿using System;
+﻿using SQLite;
 
 namespace XamarinMessenger.Models
 {
+    [Table("item")]
     public class Item
     {
+        [PrimaryKey, AutoIncrement, Column("_id")]
         public int id { get; set; }
         public int student_id { get; set; }
 

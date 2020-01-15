@@ -1,19 +1,20 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.ComponentModel;
+using System.IO;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 using XamarinMessenger.Models;
 using XamarinMessenger.ViewModels;
 
 namespace XamarinMessenger.Views
 {
-    // Learn more about making custom code visible in the Xamarin.Forms previewer
-    // by visiting https://aka.ms/xamarinforms-previewer
     [DesignTimeVisible(false)]
     public partial class ItemDetailPage : ContentPage
     {
-        ItemDetailViewModel viewModel;
+        private readonly ItemDetailViewModel viewModel;
+
+        private readonly string Filename = "Favorites.db"; // Used to store the favorite messages
 
         public ItemDetailPage(ItemDetailViewModel viewModel)
         {
@@ -28,14 +29,31 @@ namespace XamarinMessenger.Views
 
             var item = new Item
             {
-                student_message = "Item 1",
-                gps_lat = 43.6311291,
-                gps_long = 03.8602811,
-                student_id = 20140477
+                student_message = "Test message",
+                gps_lat = 0,
+                gps_long = 0,
+                student_id = 1
             };
 
-            viewModel = new ItemDetailViewModel(item);
-            BindingContext = viewModel;
+            BindingContext = this.viewModel = new ItemDetailViewModel(item);
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            if (viewModel.Items.Count == 0)
+                viewModel.LoadItemsCommand.Execute(null);
+        }
+
+        // Add to favorites button
+        public void OnButtonClicked(object sender, EventArgs args)
+        {
+            string filePath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), Filename);
+            SQLiteConnection connection = new SQLiteConnection(filePath);
+            
+            connection.CreateTable<Item>();
+            connection.Insert(viewModel.SelectedItem);
         }
     }
 }
