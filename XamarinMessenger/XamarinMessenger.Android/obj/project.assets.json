@@ -11,6 +11,47 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Syncfusion.Licensing/17.3.0.29": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/17.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "17.3.0.29",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.Core.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.Core.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfMaps/17.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.3.0.29",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.SfMaps.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfMaps.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfMaps.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.SfMaps.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfMaps.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfMaps.XForms.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -814,6 +855,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Syncfusion.Xamarin.SfMaps": "17.3.0.29",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249"
         },
@@ -856,6 +898,93 @@
         "newtonsoft.json.12.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "Syncfusion.Licensing/17.3.0.29": {
+      "sha512": "tOmGjHH/rmUrDuQsUE8l3NfvZ3FGKebimpGwVMwwRS3tdsF26g6EohrkWHlgN20xJxEQKpCbULlhiMG+EQSteg==",
+      "type": "package",
+      "path": "syncfusion.licensing/17.3.0.29",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.17.3.0.29.nupkg.sha512",
+        "syncfusion.licensing.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.Core/17.3.0.29": {
+      "sha512": "0kdITqOBx/+60KGS4h4JA0PYZMcvDdPCHqb2YJDqa12SE9Em5NyiMtQO68VV/HWuWcWTSRJcZH3/lQj+7JPRig==",
+      "type": "package",
+      "path": "syncfusion.xamarin.core/17.3.0.29",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.Core.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.Core.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/Syncfusion.Core.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/DropDownIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleCollapsedIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleVisibleIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.xml",
+        "syncfusion.xamarin.core.17.3.0.29.nupkg.sha512",
+        "syncfusion.xamarin.core.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfMaps/17.3.0.29": {
+      "sha512": "Hp3Yu38JIIbSpAm4iwpG3egsZwBihsA6i5QhN8QLHosumWDM6D5jpLHjbJE6eLVr4rS6CLry+a6tTlfLuNTTKw==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfmaps/17.3.0.29",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfMaps.Android.XML",
+        "lib/MonoAndroid10/Syncfusion.SfMaps.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfMaps.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfMaps.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfMaps.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfMaps.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfMaps.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfMaps.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfMaps.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfMaps.iOS.xml",
+        "lib/netstandard2.0/Syncfusion.SfMaps.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfMaps.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfMaps.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfMaps.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfMaps.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfMaps.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfMaps.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfMaps.XForms.xml",
+        "syncfusion.xamarin.sfmaps.17.3.0.29.nupkg.sha512",
+        "syncfusion.xamarin.sfmaps.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -1946,6 +2075,7 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
       "Newtonsoft.Json >= 12.0.3",
+      "Syncfusion.Xamarin.SfMaps >= 17.3.0.29",
       "Xamarin.Android.Support.Core.Utils >= 28.0.0.1",
       "Xamarin.Essentials >= 1.2.0",
       "Xamarin.Forms >= 4.2.0.709249",
@@ -1953,24 +2083,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cleme\\.nuget\\packages\\": {},
+    "C:\\Users\\helen\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj",
+      "projectUniqueName": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj",
       "projectName": "XamarinMessenger.Android",
-      "projectPath": "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj",
-      "packagesPath": "C:\\Users\\cleme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.Android\\obj\\",
+      "projectPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj",
+      "packagesPath": "C:\\Users\\helen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\cleme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\helen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1984,8 +2114,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
-              "projectPath": "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj"
+            "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
+              "projectPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj"
             }
           }
         }
@@ -1997,6 +2127,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.3, )"
+          },
+          "Syncfusion.Xamarin.SfMaps": {
+            "target": "Package",
+            "version": "[17.3.0.29, )"
           },
           "Xamarin.Android.Support.Core.Utils": {
             "target": "Package",

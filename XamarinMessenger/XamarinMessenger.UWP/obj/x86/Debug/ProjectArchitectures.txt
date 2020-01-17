@@ -1,1 +1,1 @@
-C:\Users\cleme\source\repos\XamarinMessenger\XamarinMessenger\XamarinMessenger.UWP\XamarinMessenger.UWP.csproj;x86
+C:\Users\helen\Documents\GitHub\XaMessenger\XamarinMessenger\XamarinMessenger.UWP\XamarinMessenger.UWP.csproj;x86

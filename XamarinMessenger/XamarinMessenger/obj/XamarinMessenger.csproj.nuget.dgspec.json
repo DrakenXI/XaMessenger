@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {}
+    "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
+    "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj",
+        "projectUniqueName": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj",
         "projectName": "XamarinMessenger",
-        "projectPath": "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj",
-        "packagesPath": "C:\\Users\\cleme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger\\obj\\",
+        "projectPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj",
+        "packagesPath": "C:\\Users\\helen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\cleme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\helen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -51,6 +52,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "Syncfusion.Xamarin.SfMaps": {
+              "target": "Package",
+              "version": "[17.3.0.29, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
