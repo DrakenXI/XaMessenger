@@ -9,9 +9,9 @@ namespace XamarinMessenger.ViewModels
     {
         public AboutViewModel()
         {
-            Title = "About";
+            Title = "A propos";
 
-            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://xamarin.com/platform")));
+            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://github.com/DrakenXI/XaMessenger")));
         }
 
         public ICommand OpenWebCommand { get; }

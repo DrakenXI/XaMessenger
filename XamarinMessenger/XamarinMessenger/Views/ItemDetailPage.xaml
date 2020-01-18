@@ -8,10 +8,38 @@
              Title="{Binding Title}">
 
     <StackLayout Spacing="20" Padding="15">
+        <Button Text="Add to favorites"
+                Clicked="OnButtonClicked"/>
+        
         <Label Text="Text:" FontSize="Medium" />
-        <Label Text="{Binding Item.student_message}" d:Text="Item name" FontSize="Small"/>
-        <Label Text="Description:" FontSize="Medium" />
-        <Label Text="{Binding Item.student_id}" d:Text="Item description" FontSize="Small"/>
+        <Label Text="{Binding SelectedItem.student_message}" d:Text="Item name" FontSize="Small"/>
+        <Label Text="Author:" FontSize="Medium" />
+        <Label Text="{Binding SelectedItem.student_id}" d:Text="Item author" FontSize="Small"/>
+        <Label Text="Latitude:" FontSize="Medium" />
+        <Label Text="{Binding SelectedItem.gps_lat}" d:Text="Item latitude" FontSize="Small"/>
+        <Label Text="Longitude:" FontSize="Medium" />
+        <Label Text="{Binding SelectedItem.gps_long}" d:Text="Item longitude" FontSize="Small"/>
+
+        <Label Text="Messages from the same person:" FontSize="Medium" />
+        <ListView x:Name="AuthorItemsListView"
+                ItemsSource="{Binding Items}"
+                VerticalOptions="FillAndExpand"
+                HasUnevenRows="False"
+                CachingStrategy="RecycleElement">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding student_message}"
+                                LineBreakMode="NoWrap"
+                                Style="{DynamicResource ListItemTextStyle}"
+                                FontSize="16" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
-    
+
+
 </ContentPage>

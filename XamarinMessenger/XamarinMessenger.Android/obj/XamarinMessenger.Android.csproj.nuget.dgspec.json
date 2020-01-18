@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj": {}
+    "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj": {
+    "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj",
+        "projectUniqueName": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj",
         "projectName": "XamarinMessenger.Android",
-        "projectPath": "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj",
-        "packagesPath": "C:\\Users\\cleme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.Android\\obj\\",
+        "projectPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj",
+        "packagesPath": "C:\\Users\\helen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\cleme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\helen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
-                "projectPath": "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj"
+              "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
+                "projectPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj"
               }
             }
           }
@@ -48,34 +48,43 @@
             },
             "Xamarin.Android.Support.Core.Utils": {
               "target": "Package",
-              "version": "[28.0.0.1, )"
+              "version": "[28.0.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.2.0, )"
+              "version": "[1.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.709249, )"
+              "version": "[4.4.0.991477, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[4.4.0.991477, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
             }
           }
         }
       }
     },
-    "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
+    "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj",
+        "projectUniqueName": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj",
         "projectName": "XamarinMessenger",
-        "projectPath": "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj",
-        "packagesPath": "C:\\Users\\cleme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cleme\\source\\repos\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger\\obj\\",
+        "projectPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj",
+        "packagesPath": "C:\\Users\\helen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\cleme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\helen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -112,11 +121,19 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.2.0, )"
+              "version": "[1.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.709249, )"
+              "version": "[4.4.0.991477, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[4.4.0.991477, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
             }
           },
           "imports": [
