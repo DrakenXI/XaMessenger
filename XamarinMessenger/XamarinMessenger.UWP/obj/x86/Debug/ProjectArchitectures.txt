@@ -1,1 +1,0 @@
-C:\Users\helen\Desktop\XaMessenger-dev\XamarinMessenger\XamarinMessenger.UWP\XamarinMessenger.UWP.csproj;x86
