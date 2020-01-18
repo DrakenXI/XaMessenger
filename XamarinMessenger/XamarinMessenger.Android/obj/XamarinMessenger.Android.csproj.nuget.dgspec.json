@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj": {}
+    "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj": {
+    "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj",
+        "projectUniqueName": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj",
         "projectName": "XamarinMessenger.Android",
-        "projectPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj",
+        "projectPath": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj",
         "packagesPath": "C:\\Users\\helen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\obj\\",
+        "outputPath": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
-                "projectPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj"
+              "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
+                "projectPath": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj"
               }
             }
           }
@@ -46,34 +46,38 @@
               "target": "Package",
               "version": "[12.0.3, )"
             },
-            "Syncfusion.Xamarin.SfMaps": {
-              "target": "Package",
-              "version": "[17.3.0.29, )"
-            },
             "Xamarin.Android.Support.Core.Utils": {
               "target": "Package",
-              "version": "[28.0.0.1, )"
+              "version": "[28.0.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.2.0, )"
+              "version": "[1.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.709249, )"
+              "version": "[4.4.0.991477, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[4.4.0.991477, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
             }
           }
         }
       }
     },
-    "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
+    "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj",
+        "projectUniqueName": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj",
         "projectName": "XamarinMessenger",
-        "projectPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj",
+        "projectPath": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj",
         "packagesPath": "C:\\Users\\helen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\obj\\",
+        "outputPath": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -115,17 +119,21 @@
               "target": "Package",
               "version": "[12.0.3, )"
             },
-            "Syncfusion.Xamarin.SfMaps": {
-              "target": "Package",
-              "version": "[17.3.0.29, )"
-            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.2.0, )"
+              "version": "[1.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.709249, )"
+              "version": "[4.4.0.991477, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[4.4.0.991477, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
             }
           },
           "imports": [

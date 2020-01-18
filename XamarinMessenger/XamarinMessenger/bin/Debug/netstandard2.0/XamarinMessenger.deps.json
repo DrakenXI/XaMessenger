@@ -11,9 +11,10 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.3",
-          "Syncfusion.Xamarin.SfMaps": "17.3.0.29",
-          "Xamarin.Essentials": "1.2.0",
-          "Xamarin.Forms": "4.2.0.709249"
+          "Xamarin.Essentials": "1.3.1",
+          "Xamarin.Forms": "4.4.0.991477",
+          "Xamarin.Forms.Maps": "4.4.0.991477",
+          "sqlite-net-pcl": "1.6.292"
         },
         "runtime": {
           "XamarinMessenger.dll": {}
@@ -33,35 +34,42 @@
           }
         }
       },
-      "Syncfusion.Licensing/17.3.0.29": {
+      "sqlite-net-pcl/1.6.292": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "SQLitePCLRaw.bundle_green": "1.1.13"
+        },
         "runtime": {
-          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
-            "assemblyVersion": "17.3.0.29",
-            "fileVersion": "17.3.0.29"
+          "lib/netstandard1.1/SQLite-net.dll": {
+            "assemblyVersion": "1.6.292.0",
+            "fileVersion": "1.6.292.0"
           }
         }
       },
-      "Syncfusion.Xamarin.Core/17.3.0.29": {
+      "SQLitePCLRaw.bundle_green/1.1.13": {
         "dependencies": {
-          "Syncfusion.Licensing": "17.3.0.29",
-          "Xamarin.Forms": "4.2.0.709249"
+          "NETStandard.Library": "2.0.3",
+          "SQLitePCLRaw.core": "1.1.13"
         },
         "runtime": {
-          "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {
-            "assemblyVersion": "17.3451.0.29",
-            "fileVersion": "17.3451.0.29"
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_green.dll": {
+            "assemblyVersion": "1.1.13.388",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "1.1.13.388",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
-      "Syncfusion.Xamarin.SfMaps/17.3.0.29": {
+      "SQLitePCLRaw.core/1.1.13": {
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "17.3.0.29",
-          "Xamarin.Forms": "4.2.0.709249"
+          "NETStandard.Library": "2.0.3"
         },
         "runtime": {
-          "lib/netstandard2.0/Syncfusion.SfMaps.XForms.dll": {
-            "assemblyVersion": "17.3451.0.29",
-            "fileVersion": "17.3451.0.29"
+          "lib/netstandard1.1/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "1.1.13.388",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -73,7 +81,7 @@
           }
         }
       },
-      "Xamarin.Essentials/1.2.0": {
+      "Xamarin.Essentials/1.3.1": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -84,19 +92,30 @@
           }
         }
       },
-      "Xamarin.Forms/4.2.0.709249": {
+      "Xamarin.Forms/4.4.0.991477": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.2.0.75"
+            "fileVersion": "4.4.0.451"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.2.0.75"
+            "fileVersion": "4.4.0.451"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.2.0.75"
+            "fileVersion": "4.4.0.451"
+          }
+        }
+      },
+      "Xamarin.Forms.Maps/4.4.0.991477": {
+        "dependencies": {
+          "Xamarin.Forms": "4.4.0.991477"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.4.0.451"
           }
         }
       }
@@ -129,26 +148,26 @@
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
-    "Syncfusion.Licensing/17.3.0.29": {
+    "sqlite-net-pcl/1.6.292": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tOmGjHH/rmUrDuQsUE8l3NfvZ3FGKebimpGwVMwwRS3tdsF26g6EohrkWHlgN20xJxEQKpCbULlhiMG+EQSteg==",
-      "path": "syncfusion.licensing/17.3.0.29",
-      "hashPath": "syncfusion.licensing.17.3.0.29.nupkg.sha512"
+      "sha512": "sha512-TZPs206/ZZXhDAgCzxE5Dmw1enkRmtpd1RKt+dLJA6Kvml4RxwkasRs4js2kijtGxik1SLCs39rh9nl9YFwrYg==",
+      "path": "sqlite-net-pcl/1.6.292",
+      "hashPath": "sqlite-net-pcl.1.6.292.nupkg.sha512"
     },
-    "Syncfusion.Xamarin.Core/17.3.0.29": {
+    "SQLitePCLRaw.bundle_green/1.1.13": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0kdITqOBx/+60KGS4h4JA0PYZMcvDdPCHqb2YJDqa12SE9Em5NyiMtQO68VV/HWuWcWTSRJcZH3/lQj+7JPRig==",
-      "path": "syncfusion.xamarin.core/17.3.0.29",
-      "hashPath": "syncfusion.xamarin.core.17.3.0.29.nupkg.sha512"
+      "sha512": "sha512-E0Hm/XTfleE/LlrRZVucB1dQqDlIDPgqvkFymbGqMO7bSaoB6R2X5Cgzq/RDxBFSzHjpzet2Tp5Kar8faLSZ+Q==",
+      "path": "sqlitepclraw.bundle_green/1.1.13",
+      "hashPath": "sqlitepclraw.bundle_green.1.1.13.nupkg.sha512"
     },
-    "Syncfusion.Xamarin.SfMaps/17.3.0.29": {
+    "SQLitePCLRaw.core/1.1.13": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Hp3Yu38JIIbSpAm4iwpG3egsZwBihsA6i5QhN8QLHosumWDM6D5jpLHjbJE6eLVr4rS6CLry+a6tTlfLuNTTKw==",
-      "path": "syncfusion.xamarin.sfmaps/17.3.0.29",
-      "hashPath": "syncfusion.xamarin.sfmaps.17.3.0.29.nupkg.sha512"
+      "sha512": "sha512-I8Q9qL1urPegoyZ5uI32lgqsxl8aPRZAyVBJbO+0T/zlGz/LBc8vhRVyDyCOU9LWWpV8dYpT0nCpuLv1ua6zkA==",
+      "path": "sqlitepclraw.core/1.1.13",
+      "hashPath": "sqlitepclraw.core.1.1.13.nupkg.sha512"
     },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",
@@ -157,19 +176,26 @@
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },
-    "Xamarin.Essentials/1.2.0": {
+    "Xamarin.Essentials/1.3.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-o3i5uAchUpAvAlJX0onYFFiDo6jpKl9vgvrdDtXEuEfum0UDrSx8oGGBUjlFyUoRpvWVumXwo0VS3AbzuwEofg==",
-      "path": "xamarin.essentials/1.2.0",
-      "hashPath": "xamarin.essentials.1.2.0.nupkg.sha512"
+      "sha512": "sha512-+51728AdZ/qtABGvcIaNXgEoL2jAtxAXLHS8PvGCP0pb6n7twBqYpfgkmwHYVgu+U99szgtL+Jot8L+OXorPcA==",
+      "path": "xamarin.essentials/1.3.1",
+      "hashPath": "xamarin.essentials.1.3.1.nupkg.sha512"
     },
-    "Xamarin.Forms/4.2.0.709249": {
+    "Xamarin.Forms/4.4.0.991477": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3DWqPSn9kSKJW5mwjmICV/+4IpPQrequEN1VXUhsF0i9KKnfj49jFk9VbJnT9o2aesJAk00NED67XPbSmbxKjw==",
-      "path": "xamarin.forms/4.2.0.709249",
-      "hashPath": "xamarin.forms.4.2.0.709249.nupkg.sha512"
+      "sha512": "sha512-R0g6O208ugMZBfMbOh+gIJDX05CN6nMoGgkZVNIOU0hlOzKsM7oNJV7ntpSr4siRo43p61ycsY07w9JrgwonJQ==",
+      "path": "xamarin.forms/4.4.0.991477",
+      "hashPath": "xamarin.forms.4.4.0.991477.nupkg.sha512"
+    },
+    "Xamarin.Forms.Maps/4.4.0.991477": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uPOq1ncGc0S6zNI87kiQZiREW1ej/h6UNEMJuQWDOAuKjdgAVW2dtFZO77bG1hGGOmZetjBLD6mBQ70TGpV9Lw==",
+      "path": "xamarin.forms.maps/4.4.0.991477",
+      "hashPath": "xamarin.forms.maps.4.4.0.991477.nupkg.sha512"
     }
   }
 }

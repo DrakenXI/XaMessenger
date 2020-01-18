@@ -20,7 +20,7 @@ namespace XamarinMessenger.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
+            Xamarin.FormsMaps.Init("AnPZwuU1-Dnr_Sd63cZbn-Kh8VAhTQUGBfZWqWijae70jmin7WU0sNKMPHIEdVbD"); // bing key
             LoadApplication(new XamarinMessenger.App());
         }
     }

@@ -6,7 +6,8 @@ namespace XamarinMessenger.Models
 {
     public enum MenuItemType
     {
-        Browse,
+        Messages,
+        Carte,
         About
     }
     public class HomeMenuItem
