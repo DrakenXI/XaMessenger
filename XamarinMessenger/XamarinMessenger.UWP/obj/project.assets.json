@@ -10253,11 +10253,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger.UWP\\XamarinMessenger.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.UWP\\XamarinMessenger.UWP.csproj",
       "projectName": "XamarinMessenger.UWP",
-      "projectPath": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger.UWP\\XamarinMessenger.UWP.csproj",
+      "projectPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.UWP\\XamarinMessenger.UWP.csproj",
       "packagesPath": "C:\\Users\\helen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger.UWP\\obj\\",
+      "outputPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -10279,8 +10279,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
-              "projectPath": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj"
+            "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
+              "projectPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj"
             }
           }
         }

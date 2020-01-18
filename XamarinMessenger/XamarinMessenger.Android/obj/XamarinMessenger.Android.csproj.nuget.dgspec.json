@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj": {}
+    "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj": {
+    "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj",
+        "projectUniqueName": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj",
         "projectName": "XamarinMessenger.Android",
-        "projectPath": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj",
+        "projectPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\XamarinMessenger.Android.csproj",
         "packagesPath": "C:\\Users\\helen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger.Android\\obj\\",
+        "outputPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
-                "projectPath": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj"
+              "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
+                "projectPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj"
               }
             }
           }
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
+    "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj",
+        "projectUniqueName": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj",
         "projectName": "XamarinMessenger",
-        "projectPath": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj",
+        "projectPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\XamarinMessenger.csproj",
         "packagesPath": "C:\\Users\\helen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\helen\\Desktop\\XaMessenger-dev\\XamarinMessenger\\XamarinMessenger\\obj\\",
+        "outputPath": "C:\\Users\\helen\\Documents\\GitHub\\XaMessenger\\XamarinMessenger\\XamarinMessenger\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
