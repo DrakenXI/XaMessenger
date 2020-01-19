@@ -5911,6 +5911,8 @@ namespace XamarinMessenger.Droid
 			// aapt resource value: 0x7F070074
 			public const int design_snackbar_background = 2131165300;
 			
+			public const int Star = 2131165300;
+			
 			// aapt resource value: 0x7F070075
 			public const int googleg_disabled_color_18 = 2131165301;
 			
