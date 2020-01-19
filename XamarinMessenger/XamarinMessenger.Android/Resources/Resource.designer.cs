@@ -5926,6 +5926,8 @@ namespace XamarinMessenger.Droid
 			// aapt resource value: 0x7F070079
 			public const int ic_mtrl_chip_close_circle = 2131165305;
 			
+			public const int Star = 2131165300;
+
 			// aapt resource value: 0x7F07007A
 			public const int mtrl_snackbar_background = 2131165306;
 			

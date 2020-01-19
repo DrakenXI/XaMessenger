@@ -2,6 +2,7 @@
 using System.Windows.Input;
 
 using Xamarin.Forms;
+using Xamarin.Essentials;
 
 namespace XamarinMessenger.ViewModels
 {
@@ -11,7 +12,7 @@ namespace XamarinMessenger.ViewModels
         {
             Title = "A propos";
 
-            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://github.com/DrakenXI/XaMessenger")));
+            OpenWebCommand = new Command(() => Launcher.OpenAsync(new Uri("https://github.com/DrakenXI/XaMessenger")));
         }
 
         public ICommand OpenWebCommand { get; }

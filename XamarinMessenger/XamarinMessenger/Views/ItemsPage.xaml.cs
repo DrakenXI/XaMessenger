@@ -1,14 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 using XamarinMessenger.Models;
-using XamarinMessenger.Views;
 using XamarinMessenger.ViewModels;
 
 namespace XamarinMessenger.Views
@@ -16,7 +10,7 @@ namespace XamarinMessenger.Views
     [DesignTimeVisible(false)]
     public partial class ItemsPage : ContentPage
     {
-        ItemsViewModel viewModel;
+        private readonly ItemsViewModel viewModel;
 
         public ItemsPage()
         {
@@ -27,8 +21,7 @@ namespace XamarinMessenger.Views
 
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
         {
-            var item = args.SelectedItem as Item;
-            if (item == null)
+            if (!(args.SelectedItem is Item item))
                 return;
 
             await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(item)));

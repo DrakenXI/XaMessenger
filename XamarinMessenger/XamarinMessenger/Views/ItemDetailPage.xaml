@@ -12,17 +12,29 @@
                 Clicked="OnButtonClicked"/>
         
         <Label Text="Text:" FontSize="Medium" />
-        <Label Text="{Binding SelectedItem.student_message}" d:Text="Item name" FontSize="Small"/>
+        <Label Text="{Binding SelectedItem.student_message}" FontSize="Small"/>
         <Label Text="Author:" FontSize="Medium" />
-        <Label Text="{Binding SelectedItem.student_id}" d:Text="Item author" FontSize="Small"/>
+        <Label Text="{Binding SelectedItem.student_id}" FontSize="Small"/>
         <Label Text="Latitude:" FontSize="Medium" />
-        <Label Text="{Binding SelectedItem.gps_lat}" d:Text="Item latitude" FontSize="Small"/>
+        <Label Text="{Binding SelectedItem.gps_lat}" FontSize="Small"/>
         <Label Text="Longitude:" FontSize="Medium" />
-        <Label Text="{Binding SelectedItem.gps_long}" d:Text="Item longitude" FontSize="Small"/>
+        <Label Text="{Binding SelectedItem.gps_long}" FontSize="Small"/>
 
-        <Label Text="Messages from the same person:" FontSize="Medium" />
+
+        <Picker Title="Change student color"
+                SelectedItem="{Binding SelectedItem.Student.Color, Mode=TwoWay}"
+                SelectedIndexChanged="OnPickerClicked">
+            <Picker.Items>
+                <x:String>White</x:String>
+                <x:String>Blue</x:String>
+                <x:String>Green</x:String>
+                <x:String>Red</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <Label Text="Messages from the same student:" FontSize="Medium" />
         <ListView x:Name="AuthorItemsListView"
-                ItemsSource="{Binding Items}"
+                ItemsSource="{Binding AuthorItems}"
                 VerticalOptions="FillAndExpand"
                 HasUnevenRows="False"
                 CachingStrategy="RecycleElement">

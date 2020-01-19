@@ -17,15 +17,15 @@ namespace XamarinMessenger.Services
 
         public List<Item> GetItems()
         {
-            var listItems = new List<Item>();
             var jsonResult = new System.Net.WebClient().DownloadString("https://hmin309-embedded-systems.herokuapp.com/message-exchange/messages/");
 
-            listItems = JsonConvert.DeserializeObject<List<Item>>(jsonResult);
+            var listItems = JsonConvert.DeserializeObject<List<Item>>(jsonResult);
             foreach(var item in listItems)
             {
                 /* set a Position object created for Map's Pins */
                 item.SetStudentPosition();
             }
+            
             return listItems;
         }
 
